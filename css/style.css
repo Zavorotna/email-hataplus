@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -6,6 +7,40 @@ body {
 table {
     box-sizing: border-box;
 } 
-table tr {
-    box-sizing: border-box;
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    color: #24242b;
+}
+
+h2 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #24242b;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.logo-tr {
+    background-color: #dcdce5;
+}
+
+.logo {
+    padding: 14px 20px 13px 21px;
+}
+
+.logo-contact {
+    padding: 29px 31px 21px 20px;
+}
+
+.logo-contact p {
+    margin: 0;
 }
