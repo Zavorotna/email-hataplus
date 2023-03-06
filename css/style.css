@@ -28,6 +28,8 @@ h1 {
 }
 
 h2 {
+    margin: 0;
+    margin-bottom: 19px;
     font-size: 14px;
     line-height: 18px;
     color: #24242b;
@@ -84,7 +86,8 @@ span {
 }
 
 .main-info {
-    padding-left: 31px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .main-text {
@@ -138,22 +141,12 @@ span {
     width: 50%;
 }
 
-.box-house h2 {
+.house-three h2 a,
+.box-house h2 a {
     margin: 0;
-}
-
-.house-three h2 {
-    margin: 0;
+    margin-bottom: 19px;
     font-size: 16px;
-    line-height: 24px;
-    color: #1f1f56;
-    font-weight: bold;
-}
-
-.house-two h2 {
-    margin: 0;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5em;
     color: #1f1f56;
     font-weight: bold;
 }
@@ -161,27 +154,24 @@ span {
 .house-main,
 .house-main-two {
     margin: 0;
-    padding-top: 19px;
     margin-bottom: 14px;
     font-size: 13px;
     line-height: 19px;
     color: #9999a6;
 }
 
-
 .house-else-two {
     margin: 0;
     margin-bottom: 2px;
     font-size: 13px;
-    line-height: 18px;
+    line-height: 1,4em;
     color: #9999a6;
 }
 
 .house-else {
     margin: 0;
-    margin-bottom: 2px;
     font-size: 13px;
-    line-height: 18px;
+    line-height: 1,4em;
     color: #9999a6;
 }
 
@@ -192,9 +182,9 @@ span {
     text-align: center;
 }
 
-.bottom-info h2 {
+.bottom-info h2 a {
     margin: 0;
-    padding-bottom: 14px;
+    margin-bottom: 14px;
     font-size: 24px;
     line-height: 24px;
     color: #ffffff;
@@ -210,6 +200,7 @@ span {
 .bott-cta {
     padding: 25px 0 0 ;
 }
+
 .bott-cta a {
     border-radius: 20px;
     background-color: #1f1f56;
@@ -227,7 +218,7 @@ span {
 }
 
 .footer-foto {
-    padding: 31px 0 15px;
+    padding: 31px 0 10px;
 }
 
 .footer-foto a {
